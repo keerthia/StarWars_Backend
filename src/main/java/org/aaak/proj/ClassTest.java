@@ -15,7 +15,7 @@ public class ClassTest {
     public static void main(String [] args) throws IOException {
         try {
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI("https://swapi.dev/api/planets/")).GET().build();
+                    .uri(new URI("https://swapi.dev/api/people/")).GET().build();
             HttpResponse<String> response = HttpClient.newHttpClient()
                     .send(request, HttpResponse.BodyHandlers.ofString());
             //System.out.println("REsponse"+response.body());
@@ -24,7 +24,7 @@ public class ClassTest {
                 String s=response.body().toString();
                 Object obj= JsonParser.parseString(s);
                 JsonObject jsonObject = (JsonObject)obj;
-                Planets planets=new Planets();
+                //Planets planets=new Planets();
                 String jsonString=jsonObject.toString();
                 for (String key : jsonObject.keySet()) {
 
