@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b1a0298-9fe1-4c85-ab9b-107a537c0838" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/PlanetRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/RestCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/APIResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/PlanetResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/StarWars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/Films.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Films.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/Planets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Results.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/Starships.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Starship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +27,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,6 +46,26 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="StarWars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.aaak.proj.StarWars" />
+      <module name="FirstTestProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.aaak.proj.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StarWars" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

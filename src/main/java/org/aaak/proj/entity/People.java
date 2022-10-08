@@ -1,9 +1,9 @@
-package org.aaak.proj;
+package org.aaak.proj.entity;
 
 import java.util.List;
+//import org.springframework.context.annotation.Bean;
 
 public class People {
-
     private String name;
     private int height;
     private int mass;

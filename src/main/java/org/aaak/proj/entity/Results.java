@@ -1,4 +1,4 @@
-package org.aaak.proj;
+package org.aaak.proj.entity;
 
 import java.util.List;
 

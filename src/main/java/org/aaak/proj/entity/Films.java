@@ -1,4 +1,4 @@
-package org.aaak.proj;
+package org.aaak.proj.entity;
 import java.util.List;
 
 
@@ -10,8 +10,8 @@ public class Films {
     private String producer;
     private String releaseDate;
     private List<People> characters;
-    private List<Planets> planets;
-    private List<Starships> starships;
+    private List<Planet> planets;
+    private List<Starship> starships;
 
 
 

@@ -1,11 +1,11 @@
-package org.aaak.proj;
+package org.aaak.proj.entity;
 
 import com.google.gson.JsonObject;
 
 import java.util.List;
 
 
-public class Planets {
+public class Planet {
 
     private String climate;
     private String diameter;
@@ -98,7 +98,4 @@ public class Planets {
         this.terrain = terrain;
     }
 
-    public void setPlanetsFromResponse(JsonObject jsonObject){
-        //this.setName(jsonObject.);
-    }
 }
