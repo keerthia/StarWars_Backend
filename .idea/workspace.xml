@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b1a0298-9fe1-4c85-ab9b-107a537c0838" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/PlanetRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/RestCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/APIResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/PlanetResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/StarWars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/Films.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Films.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/Planets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Results.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/Starships.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Starship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/RestCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/RestCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/StarWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/StarWars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/APIResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/APIResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Films.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Films.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Starship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Starship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -100,7 +98,26 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/aaak/proj/StarWars.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.aaak.proj.entity.PlanetResponse" memberName="count" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FirstTestProject$StarWars.ic" NAME="StarWars Coverage Results" MODIFIED="1665521544299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.aaak.proj.entity.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/FirstTestProject$ClassTest.ic" NAME="ClassTest Coverage Results" MODIFIED="1663822673232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 @ResponseBody
-abstract public class APIResponse<T> {
+public class APIResponse<T> {
     int count;
     String next;
     String previous;

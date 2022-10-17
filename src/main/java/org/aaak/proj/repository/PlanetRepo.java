@@ -1,46 +1,41 @@
-package org.aaak.proj.entity;
+package org.aaak.proj.repository;
 
-import com.google.gson.JsonObject;
 import org.springframework.stereotype.Repository;
 
-import javax.persistence.Entity;
+import javax.persistence.*;
 import java.util.List;
 
+@Repository
+@Entity
+@Table(name="people")
+public class PlanetRepo {
+    private int climate;
+    @GeneratedValue(strategy= GenerationType.TABLE)
+  //  @Converter()
+    private int id;
+    private int diameter;
 
-public class Planet {
-
-    private String climate;
-    private String diameter;
-    private String gravity;
-    private String name;
-    private String orbitalPeriod;
-    private String population;
-    private List<String> residents;
-    private String rotationPeriod;
-    private String surfaceWater;
-    private String terrain;
-
-    public String getClimate() {
+    public int getClimate() {
         return climate;
     }
 
-    public void setClimate(String climate) {
+    public void setClimate(int climate) {
         this.climate = climate;
     }
 
-    public String getDiameter() {
+    public int getDiameter() {
         return diameter;
     }
 
-    public void setDiameter(String diameter) {
+    public void setDiameter(int diameter) {
         this.diameter = diameter;
     }
 
-    public String getGravity() {
+    public int getGravity() {
         return gravity;
     }
 
-    public void setGravity(String gravity) {
+    public void setGravity(int gravity) {
         this.gravity = gravity;
     }
 
@@ -60,11 +55,11 @@ public class Planet {
         this.orbitalPeriod = orbitalPeriod;
     }
 
-    public String getPopulation() {
+    public int getPopulation() {
         return population;
     }
 
-    public void setPopulation(String population) {
+    public void setPopulation(int population) {
         this.population = population;
     }
 
@@ -99,5 +94,15 @@ public class Planet {
     public void setTerrain(String terrain) {
         this.terrain = terrain;
     }
+
+    private int gravity;
+    private String name;
+    private String orbitalPeriod;
+    private int population;
+    private List<String> residents;
+    private String rotationPeriod;
+    private String surfaceWater;
+    private String terrain;
+
 
 }

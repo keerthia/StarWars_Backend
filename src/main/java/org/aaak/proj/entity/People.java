@@ -7,6 +7,99 @@ public class People {
     private String name;
     private int height;
     private int mass;
+
+    public int getMass() {
+        return mass;
+    }
+
+    public void setMass(int mass) {
+        this.mass = mass;
+    }
+
+    public String getHairColor() {
+        return hairColor;
+    }
+
+    public void setHairColor(String hairColor) {
+        this.hairColor = hairColor;
+    }
+
+    public String getSkinColor() {
+        return skinColor;
+    }
+
+    public void setSkinColor(String skinColor) {
+        this.skinColor = skinColor;
+    }
+
+    public String getEyeColor() {
+        return eyeColor;
+    }
+
+    public void setEyeColor(String eyeColor) {
+        this.eyeColor = eyeColor;
+    }
+
+    public String getBirthYear() {
+        return birthYear;
+    }
+
+    public String getHomeWorld() {
+        return homeWorld;
+    }
+
+    public void setHomeWorld(String homeWorld) {
+        this.homeWorld = homeWorld;
+    }
+
+    public List<String> getFilms() {
+        return films;
+    }
+
+    public void setFilms(List<String> films) {
+        this.films = films;
+    }
+
+    public List<String> getVehicles() {
+        return vehicles;
+    }
+
+    public void setVehicles(List<String> vehicles) {
+        this.vehicles = vehicles;
+    }
+
+    public List<String> getSpecies() {
+        return species;
+    }
+
+    public void setSpecies(List<String> species) {
+        this.species = species;
+    }
+
+    public List<String> getStarShips() {
+        return starShips;
+    }
+
+    public void setStarShips(List<String> starShips) {
+        this.starShips = starShips;
+    }
+
+    public String getEdited() {
+        return edited;
+    }
+
+    public void setEdited(String edited) {
+        this.edited = edited;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
     private String hairColor;
     private String skinColor;
     private String eyeColor;
