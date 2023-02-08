@@ -1,14 +1,14 @@
-package org.aaak.proj.entity;
+package org.aaak.proj.entity.api;
 
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
+
 @ResponseBody
-public class APIResponse<T> {
+public abstract class APIResponse<T> {
     int count;
     String next;
     String previous;
-    List<T> results;
 
     public int getCount() {
         return count;
@@ -34,11 +34,7 @@ public class APIResponse<T> {
         this.previous = previous;
     }
 
-    public List<T> getResults() {
-        return results;
-    }
+    public abstract List<T> getResults();
 
-    public void setResults(List<T> results) {
-        this.results = results;
-    }
+    public abstract void setResults(List<T> results);
 }

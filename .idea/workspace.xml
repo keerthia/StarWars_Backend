@@ -5,15 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b1a0298-9fe1-4c85-ab9b-107a537c0838" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/SpringStarWars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/deserializer/DateDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/APIEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/AsDBEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/FilmsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/PeopleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/db/DBEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/db/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/db/StarshipsDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/db/aaak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/db/aaakForeignTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/filter/CustomHeaderFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/FilmRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/ForeignTableMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/PeopleRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/SpeciesRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/StarshipRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/VehicleRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/iface/PeopleHairColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/services/RepoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/services/ServiceAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/util/NumberParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/RestCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/RestCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/RestCall.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/StarWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/StarWars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/APIResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/APIResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Films.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Films.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Starship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Starship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/controller/ControllerStarWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/controller/ControllerStarWars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/controller/ServiceAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/APIResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/APIResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Films.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/Films.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/PeopleResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/PlanetResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Starship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/Starship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/VehicleResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/PlanetRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/PlanetRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applications.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,15 +63,38 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectId" id="2Eor4pIrdPy59lCnMTyBmttY2VR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,13 +102,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.aaak.proj.services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StarWars">
+    <configuration name="SpringStarWars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.aaak.proj.SpringStarWars" />
+      <module name="FirstTestProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.aaak.proj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StarWars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.aaak.proj.StarWars" />
       <module name="FirstTestProject.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.aaak.proj.entity.*" />
+          <option name="PATTERN" value="org.aaak.proj.entity.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,6 +146,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringStarWars" />
         <item itemvalue="Application.StarWars" />
       </list>
     </recent_temporary>
@@ -102,17 +188,36 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/aaak/proj/StarWars.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/aaak/proj/SpringStarWars.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.data.mapping.MappingException" package="org.springframework.data.mapping" />
+          <option name="timeStamp" value="16" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="org.aaak.proj.entity.api.PlanetResponse" memberName="count" />
+        <PinnedItemInfo parentTag="org.aaak.proj.entity.db.Film" memberName="characters" />
+        <PinnedItemInfo parentTag="org.aaak.proj.entity.db.PeopleDB" memberName="films" />
         <PinnedItemInfo parentTag="org.aaak.proj.entity.PlanetResponse" memberName="count" />
+        <PinnedItemInfo parentTag="org.aaak.proj.entity.db.StarshipsDB" memberName="films" />
+        <PinnedItemInfo parentTag="org.aaak.proj.entity.db.VehicleDB" memberName="vehicleClass" />
+        <PinnedItemInfo parentTag="org.aaak.proj.entity.db.VehicleDB" memberName="cargoCapacity" />
+        <PinnedItemInfo parentTag="org.aaak.proj.entity.api.Films" memberName="filmsList" />
+        <PinnedItemInfo parentTag="org.aaak.proj.entity.db.VehicleDB" memberName="passengers" />
+        <PinnedItemInfo parentTag="org.aaak.proj.entity.db.Film" memberName="vehicles" />
+        <PinnedItemInfo parentTag="org.aaak.proj.controller.ControllerStarWars" memberName="responseClassName" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="e" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FirstTestProject$StarWars.ic" NAME="StarWars Coverage Results" MODIFIED="1665521544299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
