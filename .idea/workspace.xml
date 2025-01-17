@@ -5,49 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b1a0298-9fe1-4c85-ab9b-107a537c0838" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/SpringStarWars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/deserializer/DateDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/APIEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/AsDBEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/FilmsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/PeopleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/db/DBEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/db/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/db/StarshipsDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/db/aaak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/db/aaakForeignTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/filter/CustomHeaderFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/FilmRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/ForeignTableMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/PeopleRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/SpeciesRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/StarshipRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/VehicleRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/iface/PeopleHairColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/services/RepoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/services/ServiceAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/util/NumberParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/RestCall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/StarWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/StarWars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/controller/ControllerStarWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/controller/ControllerStarWars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/controller/ServiceAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/APIResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/APIResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Films.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/Films.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/PeopleResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/PlanetResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Starship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/Starship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/api/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/entity/VehicleResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/PlanetRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aaak/proj/repository/PlanetRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applications.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
