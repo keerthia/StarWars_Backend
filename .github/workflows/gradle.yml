@@ -35,3 +35,4 @@ jobs:
         
     - name: Run build with Gradle Wrapper
       run: ./gradlew build
+          export DB_PASSWORD=${{ secrets.DB_PASSWORD }}
